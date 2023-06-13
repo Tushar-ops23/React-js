@@ -8,7 +8,7 @@
 FROM node:16
 
 # Set the working directory inside the container
-WORKDIR /React.js
+WORKDIR /React-js
 
 # Copy the package.json file to the working directory
 COPY package.json .
